@@ -1,0 +1,15 @@
+{
+  "name": "5ch Modernizer",
+  "version": "1.0",
+  "description": "Modernize the 5ch.net.",
+  "manifest_version": 2,
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.5ch.net/*"],
+      "js": ["package/homepage/index.js"],
+      "css": ["package/homepage/index.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
