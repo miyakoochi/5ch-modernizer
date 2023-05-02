@@ -68,6 +68,14 @@ div#main-content-box {
   border-radius: 2rem !important;
 }
 
+.post_nav_buttons {
+  margin-left: auto;
+}
+
+.post_nav_buttons .hide_post {
+  display: block !important;
+}
+
 .thread_box_wrap,
 .thread_box_wrap_thumbnail {
   border-radius: 50%;
